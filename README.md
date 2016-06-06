@@ -17,7 +17,7 @@
 */
 @property (nonatomic,strong,nonnull) NSArray<UIColor *> *lineColors;//设置线条颜色,如果颜色提供的不足,那么多余的线条自动使用最后一个颜色
 @property (nonatomic,strong,nonnull) NSArray<UIColor *> *roundColors;//设置圆点的颜色,如果颜色提供的不足,那么多余的圆点自动使用最后一个颜色
-@property (nonatomic,strong,nullable) UIColor *showAssistLineColor;//设置显示图表中的辅助横线的颜色
+@property (nonatomic,strong,nullable) UIColor *showAssistLineColor;//设置显示图表中的辅助线(垂直交叉的线)的颜色
 
 
 /**
@@ -40,7 +40,7 @@
 
 @property (nonatomic,assign) CGFloat showAssistLineWidth;//设置是否显示图表中的辅助横线的宽度
 
-@property (nonatomic,assign) BOOL showAssistLine;//设置是否显示图表中的辅助竖线
+@property (nonatomic,assign) BOOL showAssistLine;//设置是否显示图表中的辅助线(垂直交叉的线)
 
 @property (nonatomic,assign) ZCChartlineType lintype;//设置直线的类型(曲线/折线)
 
