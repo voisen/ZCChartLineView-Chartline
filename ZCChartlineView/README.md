@@ -18,7 +18,6 @@
 @property (nonatomic,strong,nonnull) NSArray<UIColor *> *roundColors;//设置圆点的颜色,如果颜色提供的不足,那么多余的圆点自动使用最后一个颜色
 @property (nonatomic,strong,nullable) UIColor *showAssistLineColor;//设置显示图表中的辅助横线的颜色
 
-@property (nonatomic,strong,nonnull) UIColor *strokeColor;//设置绘制的线条颜色
 
 /**
 *  线条绘制设置

@@ -54,7 +54,6 @@
     self.showVerticalLine = YES;
     self.xy_label_font = [UIFont systemFontOfSize:14];
     self.valueLabel_font = [UIFont systemFontOfSize:11];
-    self.strokeColor = [UIColor blueColor];
     _lintype = ZCChartlineTypeBroken;
     xyLayer = [[CAShapeLayer alloc]init];
     _showAssistLineColor = [UIColor redColor];
